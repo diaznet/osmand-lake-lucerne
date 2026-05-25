@@ -1,0 +1,13 @@
+{
+  "name": "osmand-overlay-lake-lucerne",
+  "version": "1.0.0",
+  "description": "Nautical overlay for Lake Lucerne (Vierwaldstättersee) for OsmAnd",
+  "private": true,
+  "scripts": {
+    "build": "node convert-to-osmand.js && node generate-tile-overlay.js"
+  },
+  "dependencies": {
+    "pngjs": "^7.0.0",
+    "sql.js": "^1.14.1"
+  }
+}
